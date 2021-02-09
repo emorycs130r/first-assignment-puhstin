@@ -15,19 +15,14 @@ DO NOT EDIT THE FUNCTION NAMES.
 '''
 
 def append_two_strings(string_1, string_2):
-
-    pass
-
+    return string_1 + string_2
 
 def append_character(string_1, char_1):
-
-    pass
-
+    return string_1 + char_1
 
 def append_num_to_string(string_1, num_1):
-
-    pass
-
+    num_1 = str(num_1)
+    return string_1 + num_1
 
 if __name__ == "__main__":
     
